@@ -1,0 +1,13 @@
+# 공개 대상은 아래 소스와 합성 입력뿐이다.
+*
+!/.gitignore
+!/README.md
+!/signals.py
+!/backtest.py
+!/run_demo.py
+!/data/
+!/data/cap_months.csv
+!/data/sessions.csv
+!/tests/
+!/tests/test_demo.py
+/outputs/

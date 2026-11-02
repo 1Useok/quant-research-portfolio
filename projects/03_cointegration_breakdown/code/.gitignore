@@ -1,0 +1,13 @@
+# 공개할 입력과 소스만 허용한다.
+*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/make_sample.py
+!/study.py
+!/run_demo.py
+!/data/
+!/data/prices.csv
+!/tests/
+!/tests/test_demo.py
+/outputs/

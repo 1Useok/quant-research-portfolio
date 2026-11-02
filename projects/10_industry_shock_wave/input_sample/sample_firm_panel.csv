@@ -1,0 +1,7 @@
+firm_id,industry,quarter,financial_score,market_signal
+F001,IND_A,2024Q4,0.72,0.61
+F002,IND_A,2024Q4,0.38,0.44
+F003,IND_B,2024Q4,0.81,0.75
+F004,IND_C,2024Q4,0.55,0.49
+F005,IND_D,2024Q4,0.21,0.33
+

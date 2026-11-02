@@ -1,0 +1,3 @@
+kind,file,published_through
+base,market_base.csv,2024-11-30
+delta,market_delta.csv,2024-12-31

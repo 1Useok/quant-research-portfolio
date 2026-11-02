@@ -1,0 +1,14 @@
+# 공개할 코드와 합성 입력만 허용한다. outputs와 임시 실행 폴더도 제외된다.
+*
+!/.gitignore
+!/README.md
+!/replica.py
+!/run_demo.py
+!/data/
+!/data/make_sample.py
+!/data/factors.csv
+!/data/macro.csv
+!/data/closes.csv
+!/data/reference.csv
+!/tests/
+!/tests/test_demo.py

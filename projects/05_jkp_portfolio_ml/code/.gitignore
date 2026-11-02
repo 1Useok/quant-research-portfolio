@@ -1,0 +1,12 @@
+# 검토한 소스, 테스트, 합성 입력만 공개한다.
+*
+!/.gitignore
+!/README.md
+!/model.py
+!/backtest.py
+!/make_sample.py
+!/run_demo.py
+!/tests/
+!/tests/test_demo.py
+!/data/
+!/data/panel.csv

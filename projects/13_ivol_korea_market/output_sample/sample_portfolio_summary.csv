@@ -1,0 +1,5 @@
+portfolio,cagr,volatility,sharpe,mdd,turnover,notes
+low_ivol_long,0.118,0.172,0.69,-0.181,0.34,"synthetic toy values, not results"
+high_ivol_short,0.043,0.235,0.18,-0.289,0.47,"synthetic toy values, not results"
+long_short,0.075,0.146,0.51,-0.124,0.81,"synthetic toy values, not results"
+cost_adjusted,0.052,0.146,0.36,-0.132,0.81,"synthetic toy values, not results"

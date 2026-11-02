@@ -1,0 +1,6 @@
+scenario,top_n,cost_bps,annualized_return,annualized_vol,sharpe,capacity_mil_krw
+equal_weight,5,0,0.184,0.122,1.51,920
+equal_weight,5,30,0.143,0.122,1.17,920
+score_weight,5,30,0.169,0.135,1.25,760
+score_weight,10,30,0.128,0.101,1.27,1430
+

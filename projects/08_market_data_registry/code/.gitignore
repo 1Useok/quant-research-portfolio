@@ -1,0 +1,11 @@
+*
+!/.gitignore
+!/README.md
+!/run_demo.py
+!/market_store.py
+!/data/
+!/data/market_base.csv
+!/data/market_delta.csv
+!/data/investor_flow.csv
+!/tests/
+!/tests/test_store.py

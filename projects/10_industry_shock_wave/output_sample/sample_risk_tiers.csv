@@ -1,0 +1,7 @@
+firm_id,industry,risk_score,risk_tier,main_driver
+F001,IND_A,74.2,High,financial_vulnerability
+F002,IND_A,42.8,Medium,market_signal
+F003,IND_B,83.6,Critical,network_exposure
+F004,IND_C,58.1,Medium,input_cost_exposure
+F005,IND_D,29.4,Low,baseline
+

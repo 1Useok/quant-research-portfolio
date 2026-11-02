@@ -1,0 +1,7 @@
+event_id,date,ticker,headline,news_score,event_minute
+E001,2025-01-08,A001,synthetic product approval headline,1.42,35
+E002,2025-01-08,A002,synthetic supply contract headline,0.88,112
+E003,2025-01-09,A003,synthetic earnings warning headline,-1.17,58
+E004,2025-01-10,A004,synthetic new order headline,1.05,201
+E005,2025-01-10,A005,synthetic regulatory review headline,-0.64,73
+

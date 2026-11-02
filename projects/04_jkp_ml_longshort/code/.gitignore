@@ -1,0 +1,18 @@
+# Only these reviewed source files and synthetic fixtures are publishable.
+*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/run_demo.py
+!/data_pipeline.py
+!/model.py
+!/portfolio.py
+!/tests/
+!/tests/test_pipeline.py
+!/data/
+!/data/make_sample.py
+!/data/calendar.csv
+!/data/financial.csv
+!/data/market_base.csv
+!/data/market_delta.csv
+!/data/registry.csv

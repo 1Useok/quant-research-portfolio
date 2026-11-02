@@ -1,0 +1,6 @@
+model,rmse,rank_ic,long_short_return,notes
+pooled_ols,3.42,0.041,0.018,synthetic toy metric
+industry_ols,3.18,0.049,0.022,synthetic toy metric
+xgboost,2.94,0.057,0.027,synthetic toy metric
+rolling_xgboost,3.05,0.052,0.024,synthetic toy metric
+

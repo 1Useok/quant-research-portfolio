@@ -1,0 +1,6 @@
+model,term,coef,t_stat,notes
+base,beta_divatt,0.018,2.41,synthetic illustration
+base,beta_mkt,-0.004,-0.72,synthetic illustration
+with_flow,beta_divatt,0.015,2.08,synthetic illustration
+with_flow,individual_netbuy,0.011,1.96,synthetic illustration
+

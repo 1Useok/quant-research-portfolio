@@ -1,0 +1,7 @@
+trade_date,ticker,asset_type,source
+2025-01-08,A001,stock,KRX
+2025-01-08,A002,stock,KRX
+2025-01-08,F001,futures,KIS
+2025-01-08,O001,options,KIS
+2025-01-08,E001,ETF,KRX
+

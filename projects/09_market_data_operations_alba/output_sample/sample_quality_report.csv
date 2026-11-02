@@ -1,0 +1,7 @@
+check_name,status,observations,notes
+universe_available,pass,5,synthetic universe loaded
+minute_bar_nonempty,pass,5,minute bars present
+ohlc_valid,pass,5,high-low-open-close consistency
+volume_nonnegative,pass,5,no negative volume
+expected_file_count,pass,3,toy output files created
+

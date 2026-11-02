@@ -1,0 +1,51 @@
+name: projects
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  project:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - 01_news_text_strategy
+          - 02_iof_longshort
+          - 03_cointegration_breakdown
+          - 04_jkp_ml_longshort
+          - 05_jkp_portfolio_ml
+          - 07_quant_model_replication
+          - 08_market_data_registry
+    defaults:
+      run:
+        working-directory: projects/${{ matrix.project }}/code
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
+      - name: Run demo
+        run: python run_demo.py
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+  scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install numpy pandas
+      - name: 06 factor selection
+        working-directory: projects/06_factor_strategy_research/code
+        run: python factor_selection.py
+      - name: 15 portfolio engine
+        working-directory: projects/15_quant_subscription_platform/code
+        run: python test_portfolio_engine.py

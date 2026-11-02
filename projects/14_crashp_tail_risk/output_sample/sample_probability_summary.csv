@@ -1,0 +1,6 @@
+ticker,crash_probability,jump_probability,position_signal,universe,notes
+A001,0.18,0.41,long,KOSPI,"synthetic toy values, not results"
+A002,0.22,0.16,neutral,KOSPI,"synthetic toy values, not results"
+A003,0.67,0.08,avoid,KOSPI200,"synthetic toy values, not results"
+A004,0.31,0.24,neutral,KOSPI200,"synthetic toy values, not results"
+A005,0.58,0.12,avoid,KOSPI,"synthetic toy values, not results"

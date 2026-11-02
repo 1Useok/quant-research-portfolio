@@ -1,0 +1,14 @@
+# Only the reviewed public source, fixtures and tests belong in this repository.
+*
+!/.gitignore
+!/README.md
+!/signals.py
+!/backtest.py
+!/run_demo.py
+!/data/
+!/data/companies.csv
+!/data/training.csv
+!/data/news.csv
+!/data/market.csv
+!/tests/
+!/tests/test_demo.py

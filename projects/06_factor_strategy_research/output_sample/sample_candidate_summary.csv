@@ -1,0 +1,4 @@
+step,factor_id,family,factor_sharpe_is,max_corr_to_selected,combo_n,combo_sharpe_is,combo_turnover_avg
+1,F005,value_quality,3.724,,1,3.724,0.046
+2,F007,reversal,2.524,-0.323,2,5.404,0.054
+3,F002,momentum,2.816,0.264,3,5.607,0.065

@@ -1,0 +1,10 @@
+symbol,investor,market_turnover_10k,buy_10k,sell_10k,net_10k
+SIM01,insurance,275,70,45,25
+SIM01,fund,275,23,51,-28
+SIM01,pension,275,39,28,11
+SIM02,insurance,312,20,26,-6
+SIM02,fund,312,32,49,-17
+SIM02,pension,312,58,32,26
+SIM03,insurance,183,13,20,-7
+SIM03,fund,183,33,17,16
+SIM03,pension,183,11,19,-8

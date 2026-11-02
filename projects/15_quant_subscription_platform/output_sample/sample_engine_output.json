@@ -1,0 +1,78 @@
+{
+  "_note": "SYNTHETIC toy output: engine run on input_sample (6 fake tickers, seeded random walk). Not a research result.",
+  "params": {
+    "n_stocks": 2,
+    "strategy": "demo",
+    "size_decile_min": 1,
+    "size_decile_max": 10,
+    "rebalance_day": 1,
+    "position": 1,
+    "refund_period": "monthly"
+  },
+  "analysisRange": {
+    "start": "2025-02-04",
+    "end": "2025-06-30"
+  },
+  "metrics": {
+    "monthlyReturn": 0.06,
+    "monthlyAvgReturn": 0.96,
+    "yearlyAvgReturn": 12.21,
+    "cumulativeReturn": 3.79,
+    "maxDrawdown": -5.83,
+    "sharpeRatio": 0.52,
+    "volatility": 16.89,
+    "periodReturns": [
+      {
+        "period": "3개월",
+        "value": 4.97
+      },
+      {
+        "period": "6개월",
+        "value": 3.79
+      },
+      {
+        "period": "1년",
+        "value": 3.79
+      },
+      {
+        "period": "2년",
+        "value": 3.79
+      },
+      {
+        "period": "5년",
+        "value": 3.79
+      }
+    ],
+    "refundProbability": 50.0
+  },
+  "refundSimulation": [
+    {
+      "period": "2025-02-03 ~ 2025-03-03",
+      "startDate": "2025-02-03",
+      "endDate": "2025-03-03",
+      "returnRate": -1.12,
+      "isRefund": true
+    },
+    {
+      "period": "2025-03-03 ~ 2025-04-01",
+      "startDate": "2025-03-03",
+      "endDate": "2025-04-01",
+      "returnRate": -0.71,
+      "isRefund": true
+    },
+    {
+      "period": "2025-04-01 ~ 2025-05-01",
+      "startDate": "2025-04-01",
+      "endDate": "2025-05-01",
+      "returnRate": 5.61,
+      "isRefund": false
+    },
+    {
+      "period": "2025-05-01 ~ 2025-06-02",
+      "startDate": "2025-05-01",
+      "endDate": "2025-06-02",
+      "returnRate": 0.11,
+      "isRefund": false
+    }
+  ]
+}

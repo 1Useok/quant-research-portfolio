@@ -1,0 +1,9 @@
+factor_id,family,turnover,coverage
+F001,value_quality,0.041,0.92
+F002,momentum,0.087,0.88
+F003,liquidity,0.054,0.81
+F004,seasonality,0.033,0.76
+F005,value_quality,0.046,0.9
+F006,momentum,0.21,0.85
+F007,reversal,0.062,0.79
+F008,liquidity,0.058,0.83

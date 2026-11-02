@@ -1,0 +1,5 @@
+strategy,position_type,cagr,mdd,sharpe,win_rate,refund_triggered,notes
+jackpot,long,0.184,-0.142,1.12,0.58,False,"synthetic toy values, not results"
+jackpot,long_short,0.151,-0.101,1.34,0.61,False,"synthetic toy values, not results"
+per_anomaly,long,0.096,-0.173,0.72,0.53,True,"synthetic toy values, not results"
+sector_rotation,long,0.081,-0.119,0.68,0.55,False,"synthetic toy values, not results"
