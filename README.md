@@ -5,8 +5,6 @@
 - **실행 가능한 프로젝트(01~05, 07, 08):** `code/` 폴더에 코드, 합성 입력, 테스트가 있습니다. 06과 15에도 합성 입력으로 도는 공개 스크립트가 있습니다. 원 연구의 핵심 절차(신호 → 주문 → 장부, 검정 → 기각, 데이터 등록 → 복구)를 합성 데이터로 옮겼고, GitHub Actions가 push마다 실행합니다.
 - **연구 전시본(01, 06, 09~15):** 문제의식, 방법론, 결과 해석, 정제 노트북, 합성 input/output 샘플을 담았습니다.
 
-원천 데이터, 유료 데이터, API 키, 계정 정보는 포함하지 않습니다. 기준은 [redaction policy](docs/redaction_policy.md)에 있습니다.
-
 [![projects](https://github.com/1Useok/quant-research-portfolio/actions/workflows/projects.yml/badge.svg)](https://github.com/1Useok/quant-research-portfolio/actions/workflows/projects.yml)
 
 ## Projects
